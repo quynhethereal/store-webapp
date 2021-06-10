@@ -10,6 +10,12 @@
     top: 90px;
     right: 40px;
     z-index: 5;
+    overflow-y: scroll;
+
+    .empty-space{
+      margin: 80px auto; 
+      display:table;
+    }
   
     .cart-items {
       height: 240px;
@@ -17,8 +23,11 @@
       flex-direction: column;
       overflow: scroll;
     }
+    
   
     button {
       margin-top: auto;
     }
+
+    
   }

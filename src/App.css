@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 body {
-  font-family: 'Open Sans Condensed';
-  font-size: large;
-  padding: 20px 60px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: medium;
+  padding: 0 !important;
+
+  /* padding: 20px 60px; */
 
 }
 
@@ -12,4 +16,5 @@ a {
 
 *{
   box-sizing: border-box;
+
 }
